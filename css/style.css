@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+body{
+    width: 900px;
+    margin: auto;
+}
+
+.logo-section{
+    float: left;
+}
+.social-icons{
+    float: right;
+    margin-top: 15px;
+}
+.logo-section h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.logo-section p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+}
+nav{
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 8px solid black;
+}
+
+nav::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+.social-icons ul{
+    padding: 0;
+    list-style: none;
+}
+.social-icons li:nth-child(6){
+    margin-right: 10px;
+}
+.social-icons li{ 
+    display: inline;
+}
+.logo-img {
+    float: left;
+    margin-right: 10px;
+}
+.logo-text{
+    float: left;
+}
+
+.recipe-title h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.recipe-header-section p{
+    float: left;
+    color: #a9a9a4;
+    font-size: 16px;
+}
+
+.recipe-header-section img{
+    float: right;
+} 
+
+.recipe-header-section::after, .recipe-ingredients::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+main{
+    padding: 50px 0;
+}
+
+.recipe-title, .recipe-img, .recipe-ingredients{
+    margin-bottom: 35px;
+}
+.recipe-img img{
+    width: 100%;
+}
+
+.recipe-description p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: rgb(85,89,91);
+}
+
+.recipe-description p span{
+    margin-left: 30px;
+}
+.recipe-ingredients{
+    background-image: url(../images/list-bg.png);
+    padding: 40px 50px;
+}
+.checkboxes-section{
+    width: 48%;
+}
+.checkboxes-section label{ 
+    color: rgb(85,89,91);
+    font-family: 'Courier New', Courier, monospace;
+}
+.left-checkboxes{
+    float: left;
+    margin-right: 2%;
+}
+.right-checkboxes{
+    float:  right;
+}
+
+
+.recipe-writer{
+    border-top: 8px solid black;
+}
