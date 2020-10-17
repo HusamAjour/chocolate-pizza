@@ -137,10 +137,14 @@ display: table;
 float: left;
 }
 .vanisa-descreption {
-padding: 20px 10px 10px;
+padding: 0px 10px 10px;
 }
 .vanisa-pic{
     float: left;
+}
+.recipe-image-text{
+float: left;
+padding-top: 20px;
 }
 .vanisa-descreption p{
 font-size: 18px;
