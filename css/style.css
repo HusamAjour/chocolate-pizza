@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet');
 body{
     width: 900px;
     margin: auto;
@@ -112,8 +112,87 @@ main{
 .right-checkboxes{
     float:  right;
 }
+.right-checkboxes input:checked{
+text-decoration: underline;
+}
+
+/* .right-checkboxes input[type=checkbox] + label {
+    color: #ccc;
+    font-style: italic;
+  }  */
+.left-checkboxes input[type=checkbox]:checked + label, .right-checkboxes input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  } 
 
 
 .recipe-writer{
     border-top: 8px solid black;
 }
+.recipe-writer::after{
+content: "";
+clear: both;
+display: table;
+}
+.vanisa-descreption{
+float: left;
+}
+.vanisa-descreption {
+padding: 20px 10px 10px;
+}
+.vanisa-pic{
+    float: left;
+}
+.vanisa-descreption p{
+font-size: 18px;
+color: #666;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.vanisa-descreption h4{
+    font-size: 25px;
+    margin-bottom: 6px;
+    color: #50534C;
+    font-weight: bold ;
+}
+.vanisa-button{
+    float: right;
+    background-color: #b96c55;
+    color: #F2F6F6;
+    padding: 14px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    border:1px solid #a9a9a4;
+    border-radius: 2px;
+}
+
+.div-logo{
+    position: relative;
+    margin: 0 auto;
+    height: 2px;
+        width:100%;
+    background-color: #a9a9a4;
+    opacity: 0.8;
+
+}
+.div-logo img{
+    position: absolute;
+    top:-10px;
+    left: 45%;   
+    background-color: #FDFDFD; 
+    padding: 0px 17px 0px 17px;
+}
+.div-logo-img{
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo-coppyright{
+    margin-top: 60px;
+    text-align: center;
+    color: #B0B2B3;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
